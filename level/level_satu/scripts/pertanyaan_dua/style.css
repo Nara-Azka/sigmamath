@@ -1,0 +1,140 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+body {
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*font code:
+font-family: "Roboto Serif", serif; (Roboto Serif(Judul))
+font-family: "Coming Soon", cursive;(cooming Soon (Teks Soal & Placeholder))
+font-family: "Montserrat", sans-serif; (Monsterrat(button text))
+font-family: "Roboto Mono", monospace; (Roboto Mono(True False))*/
+
+/*all*/
+#class {
+    text-align: center;
+}
+#class2 {
+    text-align: center;
+}
+/*judul*/
+#judul {
+    /*display*/
+    display: static;
+    /*posisi*/
+    text-align: center;
+    /*text*/
+    color: white;
+    font-family: "Roboto Serif", serif;
+    /*box*/
+    background-color: rgb(84, 84, 255);
+    border-radius: 4px;
+}
+/*input*/
+#angka {
+    /*input box*/
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 17px;
+    background-color: rgb(84, 84, 255);
+    /*font dan text settings*/
+    color: white;
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: black;
+}
+#angka:active{
+    border: none;
+}
+#angka::placeholder{
+    color: white;
+    font-family: "Coming Soon", cursive;
+}
+/*button input*/
+#buttonCheck {
+    background-color: rgb(84, 84, 255);
+    border: none;
+    box-shadow: 2px 2px 2px rgb(118, 163, 178);
+    color: white;
+    border-radius: 5px;
+}
+#buttonCheck:hover {
+    transition: all 0.5s ease;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: scale(1.1);
+}
+/*main menu*/
+#mainMenu {
+    /*posisi&display*/
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    /*button*/
+    background-color: rgb(84, 84, 255);
+    border-radius: 8px;
+    border: 3px;
+    color: black;
+
+}
+#mainMenu:hover {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: scale(0.9);
+}
+#mainMenu:active {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transform: scale(0.9);
+    transform: scale(1.1);
+}
+/*next button*/
+#buttonNext {
+    /*posisi&display*/
+    
+    /*button sett*/
+    border: none;
+    box-shadow: 2px 2px 2px rgb(118, 163, 178);
+    border-radius: 3px;
+    background-color: rgb(84, 84, 255);
+    /*text sett*/
+    font-weight: bold;
+    color: orange;
+}
+#buttonNext:hover {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: scale(0.9);
+}
+#buttonNext:active {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    transform: scale(0.9);
+    transform: scale(1.1);
+}
+/*hasil*/
+#hasil {
+    font-family: "Roboto Mono", monospace;
+}
+
+#soal {
+    color: white;
+}
+/*tag name*/
+a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    font-family: "Coming Soon", cursive;
+}
+button {
+    font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,140 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+body {
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*font code:
+font-family: "Roboto Serif", serif; (Roboto Serif(Judul))
+font-family: "Coming Soon", cursive;(cooming Soon (Teks Soal & Placeholder))
+font-family: "Montserrat", sans-serif; (Monsterrat(button text))
+font-family: "Roboto Mono", monospace; (Roboto Mono(True False))*/
+
+/*all*/
+.questesion {
+    /*display*/
+    display: static;
+    /*posisi*/
+    justify-items: center;
+    text-align: center;
+    height: 7000vh;
+}
+/*id*/
+
+/*judul*/
+#pertSatu {
+    /*display*/
+    display: static;
+    /*posisi*/
+    text-align: center;
+    /*text*/
+    font-family: "Roboto Serif", serif;
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    /*box*/
+    background-color: lightcyan;
+    border-radius: 4px;
+}
+
+/*input*/
+#angka {
+    /*input box*/
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 17px;
+    background-color: rgb(84, 84, 255);
+    /*font dan text settings*/
+    color: white;
+}
+#angka:active{
+    border: none;
+}
+#angka::placeholder{
+    color: rgb(255, 255, 255);
+    font-family: "Coming Soon", cursive;
+}
+/*button input*/
+#hide {
+    background-color: rgb(84, 84, 255);
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    box-shadow: 2px 2px 2px rgb(132, 178, 193);
+    border-radius: 3px;
+}
+#hide:hover {
+    transition: all 0.5s ease;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: scale(1.1);
+}
+/*main menu*/
+#secretTwo {
+    /*posisi&display*/
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    /*button*/
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(84, 84, 255);
+    border-radius: 8px;
+    border: 3px;
+    color: black;
+
+}
+#secretTwo:hover {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: scale(0.9);
+}
+#secretTwo:active {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transform: scale(0.9);
+    transform: scale(1.1);
+}
+#secret {
+    /*posisi&display*/
+    
+    /*button sett*/
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 2px 2px 2px rgb(132, 178, 193);
+    border-radius: 3px;
+    background-color: rgb(84, 84, 255);
+    /*text sett*/
+    font-weight: bold;
+    color: orange;
+}
+#secret:hover {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: scale(0.9);
+}
+#secret:active {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transform: scale(0.9);
+    transform: scale(1.1);
+}
+/*tag name*/
+a {
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    color: white;
+    font-family: "Coming Soon", cursive;
+}
+button {
+    font-family: "Montserrat", sans-serif;
+}

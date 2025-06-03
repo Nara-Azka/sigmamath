@@ -1,0 +1,152 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+/*font code:
+font-family: "Roboto Serif", serif; (Roboto Serif(Judul))
+font-family: "Coming Soon", cursive;(cooming Soon (Teks Soal & Placeholder))
+font-family: "Montserrat", sans-serif; (Monsterrat(button text))
+font-family: "Roboto Mono", monospace; (Roboto Mono(True False))*/
+
+body {
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*class=class*/
+#class {
+    text-align: center;
+}
+/*id=judul*/
+#judul {
+    /*posision + box*/
+    display: absolute;
+    text-align: center;
+    background-color: rgb(84, 84, 255);
+    border-radius: 6px;
+    /*text and other*/
+    font-family: "Roboto Serif", serif;
+    color: white;
+}
+/*id=soal*/
+#soal {
+    /*posision + box*/
+    text-align: center;
+    border-radius: 6px;
+    /*text and other*/
+    font-family: "Coming Soon", cursive;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
+/*id=input*/
+#input {
+    /*input box*/
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 17px;
+    background-color: rgb(84, 84, 255);
+    /*font dan text settings*/
+    color: white;
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: black;
+}
+#input:active{
+    border: none;
+}
+#input::placeholder{
+    font-family: "Cooming Soon", cursive;
+    color: white;
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: white;
+}
+/*id=buttonCheck*/
+#buttonCheck {
+    background-color: rgb(84, 84, 255);
+    border: none;
+    box-shadow: 2px 2px 2px rgb(143, 181, 194);
+    border-radius: 5px;
+    color: white;
+}
+#buttonCheck:hover {
+    transition: all 0.5s ease;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: scale(1.1);
+}
+/*id=mainMenu*/
+#mainMenu {
+    /*posisi&display*/
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    /*button*/
+    background-color: rgb(84, 84, 255);
+    border-radius: 5px;
+    border: 3px;
+    color: black;
+    box-shadow: 2px 2px 2px rgb(143, 181, 194);
+}
+#mainMenu:hover {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: scale(0.9);
+}
+#mainMenu:active {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transform: scale(0.9);
+    transform: scale(1.1);
+}
+/*next button*/
+#buttonNext {
+    /*posisi & display*/
+    text-align: center;
+    position: static;
+    top: 50%;
+    right: 50%;
+    /*button sett*/
+    border: none;
+    box-shadow: 2px 2px 2px rgb(143, 181, 194);
+    border-radius: 3px;
+    background-color: rgb(84, 84, 255);
+    width: 100px;
+    height: 50px;
+    /*text sett*/
+    font-family: "Montserrat", sans-serif;
+    font-size: 100%;
+    font-weight: 500px;
+    color: white;
+}
+#buttonNext:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: none;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: scale(0.9);
+}
+#buttonNext:active {
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    transform: scale(0.9);
+    transform: scale(1.1);
+}
+/*id=hasil*/
+#hasil {
+    font-family: "Roboto Mono", monospace;
+    font-size: 50px;
+}
+/*tag a*/
+a {
+    text-decoration: none;
+    color: white;
+}
+/*tag button*/
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}

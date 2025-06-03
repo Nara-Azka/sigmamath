@@ -1,0 +1,74 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+body {
+    background-color: #4567b7;
+
+}
+
+/*a tag*/
+a {
+    text-decoration: none;
+}
+/*all*/
+#all {
+    text-align: center;
+}
+
+#aboutMe {
+    font-family: "Roboto Serif", serif;
+    color: #ffd700;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#paragraf {
+    text-align: justify;
+    color: white;
+}
+#paragrafTelp{
+    text-align: justify;
+    color: lightblue;
+}
+#telp {
+    color: white;
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: black;
+}
+
+#paragrafEmail{
+    text-align: justify;
+    color: lightblue;
+}
+#email {
+    color: white;
+    text-decoration: underline;
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: black;
+}
+
+/*button*/
+#backButton {
+    background-color: #ffd700;
+    border: none;
+    box-shadow: 3px 3px 3px #345298;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+}
+#backText {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+img {
+    background-color: white;
+}
+p {
+    font-family: "Roboto Mono", monospace;
+}
+button {
+    font-family: "Montserrat", sans-serif;
+}

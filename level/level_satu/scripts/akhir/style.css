@@ -1,0 +1,19 @@
+body {
+    background-color: orange;
+}
+a {
+    color: yellow;
+    text-decoration: none;
+}
+#b {
+    text-align: center;
+    align-items: center;
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: black;
+    background-color: white;
+    font-size: 200px;
+    position: absolute;
+    top: 26%;
+    left: 22%;
+    
+}

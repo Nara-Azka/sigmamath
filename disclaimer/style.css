@@ -1,0 +1,97 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+body {
+    background-color: #4567b7;
+}
+/*tag <a>*/
+a {
+    text-decoration: none;
+}
+/*semua*/
+#all {
+    text-align: center;
+    text-align: justify;
+    align-items: justify;
+}
+/*judul*/
+#judul {
+    text-align: center;
+    color: red;
+    background-color: #ffd700;
+    border-radius: 5px;
+}
+#isi {
+    color: white;
+}
+
+#persetujuan {
+    color: #ffffff;
+}
+#s {
+    color: rgb(0, 62, 0);
+}
+/**button*/
+#siap {
+    color: orange;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+#siapBtn {
+    background-color: #ffd700;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    transition: none;
+    transform: none;
+    box-shadow: 5px 5px 5px #335298;
+    position: static;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+#siapBtn:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.0);
+    transform: scale(1.1);
+    box-shadow: none
+}
+#siapBtn:active {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+    transform: scale(0.9);
+}
+/**/
+#tdkSiap {
+    color: red;
+    font-size: 20px;
+}
+
+#tdkSiap_btn {
+    background-color: #ffd700;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    transition: none;
+    transform: none;
+    box-shadow: 5px 5px 5px rgb(193, 193, 193);
+    text-align: center;
+    align-items: center;
+}
+#tdkSiap_btn:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.0);
+    transform: scale(1.1);
+    box-shadow: none
+}
+
+p {
+    font-family: "Roboto Mono", monospace;
+}
+button {
+    font-family: "Montserrat", sans-serif;
+}
