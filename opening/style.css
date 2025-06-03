@@ -2,7 +2,7 @@
 url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 body {
     background-color: #4567b7;
-    padding-top: 55px;
+    padding-top: 1.5px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
@@ -78,4 +78,8 @@ img {
     -webkit-text-stroke-color: black;
     font-weight: 900;
     font-size: 15px;
+}
+p {
+    color: white;
+    font-size: x-small;
 }
