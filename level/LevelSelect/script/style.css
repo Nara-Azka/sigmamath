@@ -30,10 +30,6 @@ body {
 /*tombol*/
 
 /*tombol level 1*/
-#id {
-    text-align: center;
-    justify-content: center;
-}
 #satu {
     text-align: center;
     height: 50px;
@@ -41,14 +37,16 @@ body {
     text-decoration: none;
     align-content: center;
     font-family: "Poppins", sans-serif;
-    font-size: 100%;
+    font-size: 90%;
     font-weight: 500;
+    color: #4567b7;
     background-color: rgb(145, 187, 201);
     border-radius: 5px;
     border: solid 2px rgb(42, 94, 112);
     /*--*/
     position: static;
     right: 50%;
+    justify-content: center;
 }
 
 .button1:hover {
@@ -73,7 +71,7 @@ body {
     text-decoration: none;
     align-content: center;
     font-family: "Poppins", sans-serif;
-    font-size: 100%;
+    font-size: 90%;
     font-weight: 500;
     color: #4567b7;
     background-color: rgb(145, 187, 201);
@@ -82,6 +80,7 @@ body {
     /*--*/
     position: static;
     right: 50%;
+    justify-content: center;
 }
 
 .button2:hover {
@@ -106,7 +105,7 @@ body {
     text-decoration: none;
     align-content: center;
     font-family: "Poppins", sans-serif;
-    font-size: 100%;
+    font-size: 90%;
     font-weight: 500;
     color: #4567b7;
     background-color: rgb(145, 187, 201);
@@ -115,6 +114,7 @@ body {
     /*--*/
     position: static;
     right: 50%;
+    justify-content: center;
 }
 
 .button3:hover {
@@ -154,6 +154,31 @@ body {
     cursor: pointer;
     transform: scale(0.9);
     transform: scale(1.1);
+}
+
+.id {
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    text-decoration: none;
+    align-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+    color: #4567b7;
+    background-color: rgb(145, 187, 201);
+    border-radius: 5px;
+    border: solid 2px rgb(42, 94, 112);
+    /*--*/
+    position: static;
+    right: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.idSpecial {
+    position: static;
+    justify-content: center;
+    align-items: center;
 }
 /*other*/
 a {
