@@ -4,14 +4,25 @@ body {
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    height: 100%;
+    margin: 0;
 }
 .button-container {
-    padding: 10px 20px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
-.button {
+button {
     background-color: rgb(72, 81, 255);
-    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+
+}
+.button2 {
+    background-color: rgb(72, 81, 255);
+    text-align: center;
 }
 .text {
     color: white;
