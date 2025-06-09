@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+
+[[redirects]]
+  from = "/sitemap"
+  to = "/sitemap.xml"
+  status = 200
