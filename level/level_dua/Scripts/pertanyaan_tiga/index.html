@@ -10,15 +10,15 @@
 </head>
 <body>
     <!--isi-->
-    <div id="class">
+    <div class="wrapper">
         <h1 id="judul">Pertanyaan Ketiga</h1>
         <br>
         <h1 id="soal">(-24)-(-2)=</h1>
     <div id="all"></div>
-        <input id="input" type="number" placeholder="(-24)-(-2)=...">
-        <button id="buttonCheck" onclick="cek()">Jawab</button>
+        <input id="input" type="number" placeholder="(-24)-(-2)=...">   <button id="buttonCheck" onclick="cek()">Jawab</button>
         <p id="hasil"></p>
-        <button id="buttonNext" hidden><a href="/level/level_dua/Scripts/pertanyaan_empat/index.html">Lanjut</a></button>
+        <button id="buttonNext" onclick="benar()" hidden><a href="/level/level_dua/Scripts/pertanyaan_empat/index.html">Lanjut</a></button>
+        <button id="buttonNextFalse" onclick="salah()" hidden><a href="/level/level_dua/Scripts/pertanyaan_empat/index.html">Lanjut</a></button>
     </div>
     </div>
     <button id="mainMenu"><a href="/level/LevelSelect/script/index_level_select.html">Main Menu</a></button>

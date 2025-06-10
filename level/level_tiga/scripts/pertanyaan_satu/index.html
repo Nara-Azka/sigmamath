@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="google-adsense-account" content="ca-pub-6493084778061238">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pertanyaan Satu</title>
-    <script src="script.js"></script>
-    <script src="/level/level_tiga/scripts/resouce_script.js"></script>
+    <title>Pertanyaan Dua</title>
     <link rel="stylesheet" href="/level/resouceLevel/style.css">
+    <script src="/level/resouceLevel/script.js"></script>
 </head>
 <body>
     <!--isi-->
-    <div id="class">
+    <div class="wrapper">
         <h1 id="judul">Pertanyaan Pertama</h1>
         <br>
-        <h1 id="soal">3x2=</h1>
+        <h1 id="soal">2x3=</h1>
     <div id="all"></div>
-        <input id="input" type="number" placeholder="3x2=...">
+        <input id="input" type="number" placeholder="2x3=...">
         <button id="buttonCheck" onclick="cek()">Jawab</button>
         <p id="hasil"></p>
-        <button id="buttonNext" onclick="buttonSoal_satu()" hidden><a href="/level/level_tiga/scripts/pertanyaan_dua/index.html">Lanjut</a></button>
+        <button id="buttonNext" onclick="benar()" hidden><a href="/level/level_tiga/scripts/pertanyaan_dua/index.html">Lanjut</a></button>
+        <button id="buttonNextFalse" onclick="salah()" hidden><a href="/level/level_tiga/scripts/pertanyaan_dua/index.html">Lanjut</a></button>
     </div>
     </div>
     <button id="mainMenu"><a href="/level/LevelSelect/script/index_level_select.html">Main Menu</a></button>
 </body>
+<script src="script.js"></script>
 </html>
+
+
+

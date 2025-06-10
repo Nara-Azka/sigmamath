@@ -119,6 +119,31 @@ font-family: "Roboto Mono", monospace; (Roboto Mono(True False))*/
     transform: scale(0.9);
     transform: scale(1.1);
 }
+
+#buttonNextFalse {
+    /*posisi&display*/
+    
+    /*button sett*/
+    border: none;
+    box-shadow: 2px 2px 2px rgb(118, 163, 178);
+    border-radius: 3px;
+    background-color: rgb(84, 84, 255);
+    /*text sett*/
+    font-weight: bold;
+    color: orange;
+}
+#buttonNextFalse:hover {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: scale(0.9);
+}
+#buttonNextFalse:active {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    transform: scale(0.9);
+    transform: scale(1.1);
+}
 /*hasil*/
 #hasil {
     font-family: "Roboto Mono", monospace;

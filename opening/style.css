@@ -100,3 +100,8 @@ img {
 #gap {
     font-size: 2px;
 }
+#version {
+    display: flex;
+    top: 1px;
+    right: 1px;
+}

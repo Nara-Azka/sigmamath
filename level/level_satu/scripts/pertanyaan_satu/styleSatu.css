@@ -126,6 +126,32 @@ font-family: "Roboto Mono", monospace; (Roboto Mono(True False))*/
     transform: scale(0.9);
     transform: scale(1.1);
 }
+
+#secretFalse {
+    /*posisi&display*/
+    
+    /*button sett*/
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 2px 2px 2px rgb(132, 178, 193);
+    border-radius: 3px;
+    background-color: rgb(84, 84, 255);
+    /*text sett*/
+    font-weight: bold;
+    color: orange;
+}
+#secretFalse:hover {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: scale(0.9);
+}
+#secretFalse:active {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transform: scale(0.9);
+    transform: scale(1.1);
+}
 /*tag name*/
 a {
     text-decoration: none;

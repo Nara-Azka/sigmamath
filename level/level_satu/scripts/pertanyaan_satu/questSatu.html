@@ -7,6 +7,7 @@
     <title>Pertanyaan satu</title>
     <link rel="stylesheet" href="styleSatu.css">
     <script src="script_satu.js"></script>
+    <script src="/level/resouceLevel/script.js"></script>
 </head>
 <body>
     <h1 id="pertSatu">Pertanyaan 1</h1>
@@ -17,8 +18,9 @@
         <button onclick="cekAngka()" id="hide">cek</button>
         <br>
         <p id="hasil"></p>
-        <button id="secret" hidden><a href="/level/level_satu/scripts/pertanyaan_dua/questDua.html">Lanjut</a></button>
-        <button id="secretTwo"><a href="/level/LevelSelect/script/index_level_select.html">Main Menu</a></button>
+        <button id="secret" onclick="benar()" hidden><a href="/level/level_satu/scripts/pertanyaan_dua/questDua.html">Lanjut</a></button>
+        <button id="secretFalse" onclick="salah()" hidden><a href="/level/level_satu/scripts/pertanyaan_dua/questDua.html">Lanjut</a></button>
+        <button id="secretTwo" onclick="restart()"><a href="/level/LevelSelect/script/index_level_select.html">Main Menu</a></button>
     </div>
 </body>
 </html>
