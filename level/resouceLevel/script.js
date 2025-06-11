@@ -15,7 +15,7 @@ function benar() {
 }
 function salah() {
     if (!clicked) {
-        score -= 1
+        score -= 0
         localStorage.setItem('score', score);
         console.log(score);
         clicked = false;
