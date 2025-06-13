@@ -1,26 +1,38 @@
 const fs = require('fs');
 const path = require('path');
 
-const websitePath = path.join(__dirname, '..');
+const baseUrl = 'https://sigmamath.netlify.app';
+const rootPath = path.join(__dirname, '..'); // Satu level di atas /sitemapConfiguration
 
-const urls = fs.readdirSync(websitePath, { withFileTypes: true })
-  .filter(dirent => dirent.isDirectory())
-  .filter(dirent => fs.existsSync(path.join(websitePath, dirent.name, 'index.html')))
-  .map(dirent => `/${dirent.name}`);
+function getUrls(dir, base = '') {
+  let urls = [];
+  const files = fs.readdirSync(dir, { withFileTypes: true });
 
-urls.unshift('/');
+  for (const file of files) {
+    const fullPath = path.join(dir, file.name);
+    const relativePath = path.join(base, file.name);
 
+    if (file.isDirectory()) {
+      urls = urls.concat(getUrls(fullPath, relativePath));
+    } else if (file.isFile() && file.name.endsWith('.html')) {
+      const url = '/' + relativePath.replace(/index\.html$/, '').replace(/\\/g, '/');
+      urls.push(url);
+    }
+  }
+
+  return urls;
+}
+
+const urls = getUrls(rootPath);
 const now = new Date().toISOString();
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.map(url => `
-  <url>
-    <loc>https://sigmamath.netlify.app${url}</loc>
+${urls.map(url => `  <url>
+    <loc>${baseUrl}${url}</loc>
     <lastmod>${now}</lastmod>
-  </url>`).join('')}
+  </url>`).join('\n')}
 </urlset>`;
 
-fs.writeFileSync('./sitemap.xml', sitemap);
-console.log('✅ sitemap.xml generated with <lastmod> =', now);
-console.log('terakhir diubah pada ', now);
+fs.writeFileSync(path.join(rootPath, 'sitemap.xml'), sitemap);
+console.log('✅ sitemap.xml berhasil dibuat!');
