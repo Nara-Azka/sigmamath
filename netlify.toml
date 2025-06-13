@@ -10,3 +10,7 @@
   from = "/sitemap"
   to = "/sitemap.xml"
   status = 200
+
+[build]
+  command = "npm --prefix sitemapConfiguration run build"
+  publish = "."
