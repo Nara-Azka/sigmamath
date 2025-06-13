@@ -1,14 +1,14 @@
 const fs = require('fs');
+const path = require('path');
 
-const urls = [
-  '/',
-  '/authorinfo',
-  '/disclaimer',
-  '/image',
-  '/learn',
-  '/level',
-  '/opening'
-];
+const websitePath = path.join(__dirname, '..');
+
+const urls = fs.readdirSync(websitePath, { withFileTypes: true })
+  .filter(dirent => dirent.isDirectory())
+  .filter(dirent => fs.existsSync(path.join(websitePath, dirent.name, 'index.html')))
+  .map(dirent => `/${dirent.name}`);
+
+urls.unshift('/');
 
 const now = new Date().toISOString();
 
@@ -21,5 +21,5 @@ ${urls.map(url => `
   </url>`).join('')}
 </urlset>`;
 
-fs.writeFileSync('../sitemap.xml', sitemap);
+fs.writeFileSync('./sitemap.xml', sitemap);
 console.log('✅ sitemap.xml generated with <lastmod> =', now);
