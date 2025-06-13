@@ -23,3 +23,4 @@ ${urls.map(url => `
 
 fs.writeFileSync('./sitemap.xml', sitemap);
 console.log('✅ sitemap.xml generated with <lastmod> =', now);
+console.log('terakhir diubah pada ', now);
