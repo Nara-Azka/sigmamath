@@ -1,6 +1,6 @@
 [build]  
-  command = "npm --prefix sitemapConfiguration run build && cp sitemap.xml ./"
-  publish = "."
+  command = "npm --prefix sitemapConfiguration run build && cp sitemapConfiguration/sitemap.xml ./"
+  publish = "./"
 
 [[headers]]
   for = "/sitemap.xml"
