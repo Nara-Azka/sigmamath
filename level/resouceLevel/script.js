@@ -14,12 +14,6 @@ function benar() {
     }
 }
 function salah() {
-    if (!clicked) {
-        score -= 0
-        localStorage.setItem('score', score);
-        console.log(score);
-        clicked = false;
-    }
 }
 
 //nilai
