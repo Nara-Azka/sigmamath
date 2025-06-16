@@ -6,158 +6,158 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!--sitemap -->
   <url>
-    <loc>https://sigmamath.netlify.app/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/disclaimer/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/disclaimer/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/authorInfo/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/authorInfo/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/levelselect/script/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/levelselect/script/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_satu/scripts/awal/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_satu/scripts/awal/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_dua/scripts/awal/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_dua/scripts/awal/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_tiga/scripts/awal/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_tiga/scripts/awal/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/learn/pertambahan/scripts/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/learn/pertambahan/scripts/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <!-- Pertanyaan level 1–3 -->
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_satu/scripts/pertanyaan_satu/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_satu/scripts/pertanyaan_satu/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_dua/scripts/pertanyaan_satu/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_dua/scripts/pertanyaan_satu/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_tiga/scripts/pertanyaan_satu/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_tiga/scripts/pertanyaan_satu/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- pertanyaan_dua -->
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_satu/scripts/pertanyaan_dua/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_satu/scripts/pertanyaan_dua/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_dua/scripts/pertanyaan_dua/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_dua/scripts/pertanyaan_dua/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_tiga/scripts/pertanyaan_dua/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_tiga/scripts/pertanyaan_dua/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- pertanyaan_tiga -->
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_satu/scripts/pertanyaan_tiga/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_satu/scripts/pertanyaan_tiga/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_dua/scripts/pertanyaan_tiga/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_dua/scripts/pertanyaan_tiga/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_tiga/scripts/pertanyaan_tiga/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_tiga/scripts/pertanyaan_tiga/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- pertanyaan_empat -->
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_satu/scripts/pertanyaan_empat/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_satu/scripts/pertanyaan_empat/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_dua/scripts/pertanyaan_empat/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_dua/scripts/pertanyaan_empat/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_tiga/scripts/pertanyaan_empat/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_tiga/scripts/pertanyaan_empat/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- pertanyaan_lima -->
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_satu/scripts/pertanyaan_lima/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_satu/scripts/pertanyaan_lima/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_dua/scripts/pertanyaan_lima/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_dua/scripts/pertanyaan_lima/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_tiga/scripts/pertanyaan_lima/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_tiga/scripts/pertanyaan_lima/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- akhir -->
   <url>
-    <loc>https://sigmamath.netlify.app/level/level_tiga/scripts/akhir/</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/level/level_tiga/scripts/akhir/</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sigmamath.netlify.app/image/logo.png</loc>
-    <lastmod>2025-06-15T14:32:00+07:00</lastmod>
+    <loc>https://sigmath.my.id/image/logo.png</loc>
+    <lastmod>2025-06-16T18:09:00+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
