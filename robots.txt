@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sigmamath.netlify.app/sitemap.xml
+Sitemap: https://sigmath.my.id/sitemap.xml
