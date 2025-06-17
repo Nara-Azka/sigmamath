@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const baseUrl = 'https://sigmamath.netlify.app';
+const baseUrl = 'https://sigmath.my.id';
 const rootPath = path.join(__dirname, '..'); // Satu level di atas /sitemapConfiguration
 
 function getUrls(dir, base = '') {
