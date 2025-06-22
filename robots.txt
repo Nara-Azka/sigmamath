@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Allow: /disclaimer/
 
 Sitemap: https://sigmath.my.id/sitemap.xml
